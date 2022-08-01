@@ -5,9 +5,9 @@ pipeline {
       steps {
         echo "This is build ${BUILD_NUMBER} and {DEMO}"
         sh '''
-         echo "running a shell script"
-         chmod +x test.sh
-         ./test.sh
+          echo "running a shell script"
+          chmod +x test.sh
+          ./test.sh
         
         '''
       }
